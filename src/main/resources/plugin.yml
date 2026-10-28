@@ -1,0 +1,14 @@
+name: SovereignSMP
+version: '1.7.3'
+main: com.sovereignsmp.SovereignSMPPlugin
+api-version: '1.21.11'
+description: Sovereign Mace special weapon, Echo Scythe, Witherborn, Tidelord and Dragonfang, Paleheart (5/7 artifacts), custom tooltips and configuration
+author: SovereignSMP
+commands:
+  sovereign:
+    description: Sovereign artifacts, claiming, and administration
+    usage: /sovereign help
+permissions:
+  sovereign.admin:
+    description: Mint or recover a unique Sovereign artifact, edit config
+    default: op
